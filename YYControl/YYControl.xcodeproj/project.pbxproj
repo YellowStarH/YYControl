@@ -1,0 +1,631 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		182E020620089B1000751CD5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 182E020520089B1000751CD5 /* AppDelegate.m */; };
+		182E020920089B1000751CD5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 182E020820089B1000751CD5 /* ViewController.m */; };
+		182E020C20089B1000751CD5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 182E020A20089B1000751CD5 /* Main.storyboard */; };
+		182E020E20089B1000751CD5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 182E020D20089B1000751CD5 /* Assets.xcassets */; };
+		182E021120089B1000751CD5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 182E020F20089B1000751CD5 /* LaunchScreen.storyboard */; };
+		182E021420089B1000751CD5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 182E021320089B1000751CD5 /* main.m */; };
+		182E021E20089B1000751CD5 /* YYControlTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 182E021D20089B1000751CD5 /* YYControlTests.m */; };
+		182E022920089B1000751CD5 /* YYControlUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 182E022820089B1000751CD5 /* YYControlUITests.m */; };
+		182E024620089B4D00751CD5 /* YYSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 182E023920089B4D00751CD5 /* YYSlider.m */; };
+		182E024720089B4D00751CD5 /* YYLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 182E023B20089B4D00751CD5 /* YYLabel.m */; };
+		182E024820089B4D00751CD5 /* YYImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 182E023F20089B4D00751CD5 /* YYImageView.m */; };
+		182E024920089B4D00751CD5 /* YYButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 182E024220089B4D00751CD5 /* YYButton.m */; };
+		182E024A20089B4D00751CD5 /* YYScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 182E024520089B4D00751CD5 /* YYScrollView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		182E021A20089B1000751CD5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 182E01F920089B1000751CD5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 182E020020089B1000751CD5;
+			remoteInfo = YYControl;
+		};
+		182E022520089B1000751CD5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 182E01F920089B1000751CD5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 182E020020089B1000751CD5;
+			remoteInfo = YYControl;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		182E020120089B1000751CD5 /* YYControl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YYControl.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		182E020420089B1000751CD5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		182E020520089B1000751CD5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		182E020720089B1000751CD5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		182E020820089B1000751CD5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		182E020B20089B1000751CD5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		182E020D20089B1000751CD5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		182E021020089B1000751CD5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		182E021220089B1000751CD5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		182E021320089B1000751CD5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		182E021920089B1000751CD5 /* YYControlTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YYControlTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		182E021D20089B1000751CD5 /* YYControlTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YYControlTests.m; sourceTree = "<group>"; };
+		182E021F20089B1000751CD5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		182E022420089B1000751CD5 /* YYControlUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YYControlUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		182E022820089B1000751CD5 /* YYControlUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YYControlUITests.m; sourceTree = "<group>"; };
+		182E022A20089B1000751CD5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		182E023820089B4D00751CD5 /* YYSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYSlider.h; sourceTree = "<group>"; };
+		182E023920089B4D00751CD5 /* YYSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYSlider.m; sourceTree = "<group>"; };
+		182E023B20089B4D00751CD5 /* YYLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYLabel.m; sourceTree = "<group>"; };
+		182E023C20089B4D00751CD5 /* YYLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYLabel.h; sourceTree = "<group>"; };
+		182E023E20089B4D00751CD5 /* YYImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYImageView.h; sourceTree = "<group>"; };
+		182E023F20089B4D00751CD5 /* YYImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYImageView.m; sourceTree = "<group>"; };
+		182E024120089B4D00751CD5 /* YYButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYButton.h; sourceTree = "<group>"; };
+		182E024220089B4D00751CD5 /* YYButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYButton.m; sourceTree = "<group>"; };
+		182E024420089B4D00751CD5 /* YYScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYScrollView.h; sourceTree = "<group>"; };
+		182E024520089B4D00751CD5 /* YYScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYScrollView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		182E01FE20089B1000751CD5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		182E021620089B1000751CD5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		182E022120089B1000751CD5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		182E01F820089B1000751CD5 = {
+			isa = PBXGroup;
+			children = (
+				182E020320089B1000751CD5 /* YYControl */,
+				182E021C20089B1000751CD5 /* YYControlTests */,
+				182E022720089B1000751CD5 /* YYControlUITests */,
+				182E020220089B1000751CD5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		182E020220089B1000751CD5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				182E020120089B1000751CD5 /* YYControl.app */,
+				182E021920089B1000751CD5 /* YYControlTests.xctest */,
+				182E022420089B1000751CD5 /* YYControlUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		182E020320089B1000751CD5 /* YYControl */ = {
+			isa = PBXGroup;
+			children = (
+				182E023620089B4D00751CD5 /* Control */,
+				182E020420089B1000751CD5 /* AppDelegate.h */,
+				182E020520089B1000751CD5 /* AppDelegate.m */,
+				182E020720089B1000751CD5 /* ViewController.h */,
+				182E020820089B1000751CD5 /* ViewController.m */,
+				182E020A20089B1000751CD5 /* Main.storyboard */,
+				182E020D20089B1000751CD5 /* Assets.xcassets */,
+				182E020F20089B1000751CD5 /* LaunchScreen.storyboard */,
+				182E021220089B1000751CD5 /* Info.plist */,
+				182E021320089B1000751CD5 /* main.m */,
+			);
+			path = YYControl;
+			sourceTree = "<group>";
+		};
+		182E021C20089B1000751CD5 /* YYControlTests */ = {
+			isa = PBXGroup;
+			children = (
+				182E021D20089B1000751CD5 /* YYControlTests.m */,
+				182E021F20089B1000751CD5 /* Info.plist */,
+			);
+			path = YYControlTests;
+			sourceTree = "<group>";
+		};
+		182E022720089B1000751CD5 /* YYControlUITests */ = {
+			isa = PBXGroup;
+			children = (
+				182E022820089B1000751CD5 /* YYControlUITests.m */,
+				182E022A20089B1000751CD5 /* Info.plist */,
+			);
+			path = YYControlUITests;
+			sourceTree = "<group>";
+		};
+		182E023620089B4D00751CD5 /* Control */ = {
+			isa = PBXGroup;
+			children = (
+				182E023720089B4D00751CD5 /* YYSlider */,
+				182E023A20089B4D00751CD5 /* Label */,
+				182E023D20089B4D00751CD5 /* Image */,
+				182E024020089B4D00751CD5 /* Button */,
+				182E024320089B4D00751CD5 /* YYScollView */,
+			);
+			path = Control;
+			sourceTree = "<group>";
+		};
+		182E023720089B4D00751CD5 /* YYSlider */ = {
+			isa = PBXGroup;
+			children = (
+				182E023820089B4D00751CD5 /* YYSlider.h */,
+				182E023920089B4D00751CD5 /* YYSlider.m */,
+			);
+			path = YYSlider;
+			sourceTree = "<group>";
+		};
+		182E023A20089B4D00751CD5 /* Label */ = {
+			isa = PBXGroup;
+			children = (
+				182E023B20089B4D00751CD5 /* YYLabel.m */,
+				182E023C20089B4D00751CD5 /* YYLabel.h */,
+			);
+			path = Label;
+			sourceTree = "<group>";
+		};
+		182E023D20089B4D00751CD5 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				182E023E20089B4D00751CD5 /* YYImageView.h */,
+				182E023F20089B4D00751CD5 /* YYImageView.m */,
+			);
+			path = Image;
+			sourceTree = "<group>";
+		};
+		182E024020089B4D00751CD5 /* Button */ = {
+			isa = PBXGroup;
+			children = (
+				182E024120089B4D00751CD5 /* YYButton.h */,
+				182E024220089B4D00751CD5 /* YYButton.m */,
+			);
+			path = Button;
+			sourceTree = "<group>";
+		};
+		182E024320089B4D00751CD5 /* YYScollView */ = {
+			isa = PBXGroup;
+			children = (
+				182E024420089B4D00751CD5 /* YYScrollView.h */,
+				182E024520089B4D00751CD5 /* YYScrollView.m */,
+			);
+			path = YYScollView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		182E020020089B1000751CD5 /* YYControl */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 182E022D20089B1000751CD5 /* Build configuration list for PBXNativeTarget "YYControl" */;
+			buildPhases = (
+				182E01FD20089B1000751CD5 /* Sources */,
+				182E01FE20089B1000751CD5 /* Frameworks */,
+				182E01FF20089B1000751CD5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YYControl;
+			productName = YYControl;
+			productReference = 182E020120089B1000751CD5 /* YYControl.app */;
+			productType = "com.apple.product-type.application";
+		};
+		182E021820089B1000751CD5 /* YYControlTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 182E023020089B1000751CD5 /* Build configuration list for PBXNativeTarget "YYControlTests" */;
+			buildPhases = (
+				182E021520089B1000751CD5 /* Sources */,
+				182E021620089B1000751CD5 /* Frameworks */,
+				182E021720089B1000751CD5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				182E021B20089B1000751CD5 /* PBXTargetDependency */,
+			);
+			name = YYControlTests;
+			productName = YYControlTests;
+			productReference = 182E021920089B1000751CD5 /* YYControlTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		182E022320089B1000751CD5 /* YYControlUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 182E023320089B1000751CD5 /* Build configuration list for PBXNativeTarget "YYControlUITests" */;
+			buildPhases = (
+				182E022020089B1000751CD5 /* Sources */,
+				182E022120089B1000751CD5 /* Frameworks */,
+				182E022220089B1000751CD5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				182E022620089B1000751CD5 /* PBXTargetDependency */,
+			);
+			name = YYControlUITests;
+			productName = YYControlUITests;
+			productReference = 182E022420089B1000751CD5 /* YYControlUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		182E01F920089B1000751CD5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Apple;
+				TargetAttributes = {
+					182E020020089B1000751CD5 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					182E021820089B1000751CD5 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 182E020020089B1000751CD5;
+					};
+					182E022320089B1000751CD5 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 182E020020089B1000751CD5;
+					};
+				};
+			};
+			buildConfigurationList = 182E01FC20089B1000751CD5 /* Build configuration list for PBXProject "YYControl" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 182E01F820089B1000751CD5;
+			productRefGroup = 182E020220089B1000751CD5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				182E020020089B1000751CD5 /* YYControl */,
+				182E021820089B1000751CD5 /* YYControlTests */,
+				182E022320089B1000751CD5 /* YYControlUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		182E01FF20089B1000751CD5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				182E021120089B1000751CD5 /* LaunchScreen.storyboard in Resources */,
+				182E020E20089B1000751CD5 /* Assets.xcassets in Resources */,
+				182E020C20089B1000751CD5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		182E021720089B1000751CD5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		182E022220089B1000751CD5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		182E01FD20089B1000751CD5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				182E024920089B4D00751CD5 /* YYButton.m in Sources */,
+				182E024820089B4D00751CD5 /* YYImageView.m in Sources */,
+				182E020920089B1000751CD5 /* ViewController.m in Sources */,
+				182E021420089B1000751CD5 /* main.m in Sources */,
+				182E024620089B4D00751CD5 /* YYSlider.m in Sources */,
+				182E024A20089B4D00751CD5 /* YYScrollView.m in Sources */,
+				182E024720089B4D00751CD5 /* YYLabel.m in Sources */,
+				182E020620089B1000751CD5 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		182E021520089B1000751CD5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				182E021E20089B1000751CD5 /* YYControlTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		182E022020089B1000751CD5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				182E022920089B1000751CD5 /* YYControlUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		182E021B20089B1000751CD5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 182E020020089B1000751CD5 /* YYControl */;
+			targetProxy = 182E021A20089B1000751CD5 /* PBXContainerItemProxy */;
+		};
+		182E022620089B1000751CD5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 182E020020089B1000751CD5 /* YYControl */;
+			targetProxy = 182E022520089B1000751CD5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		182E020A20089B1000751CD5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				182E020B20089B1000751CD5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		182E020F20089B1000751CD5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				182E021020089B1000751CD5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		182E022B20089B1000751CD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		182E022C20089B1000751CD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		182E022E20089B1000751CD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GUPYY35TGF;
+				INFOPLIST_FILE = YYControl/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mac.YYControl;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		182E022F20089B1000751CD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GUPYY35TGF;
+				INFOPLIST_FILE = YYControl/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mac.YYControl;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		182E023120089B1000751CD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = YYControlTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mac.YYControlTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YYControl.app/YYControl";
+			};
+			name = Debug;
+		};
+		182E023220089B1000751CD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = YYControlTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mac.YYControlTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YYControl.app/YYControl";
+			};
+			name = Release;
+		};
+		182E023420089B1000751CD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = YYControlUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mac.YYControlUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YYControl;
+			};
+			name = Debug;
+		};
+		182E023520089B1000751CD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = YYControlUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mac.YYControlUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YYControl;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		182E01FC20089B1000751CD5 /* Build configuration list for PBXProject "YYControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				182E022B20089B1000751CD5 /* Debug */,
+				182E022C20089B1000751CD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		182E022D20089B1000751CD5 /* Build configuration list for PBXNativeTarget "YYControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				182E022E20089B1000751CD5 /* Debug */,
+				182E022F20089B1000751CD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		182E023020089B1000751CD5 /* Build configuration list for PBXNativeTarget "YYControlTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				182E023120089B1000751CD5 /* Debug */,
+				182E023220089B1000751CD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		182E023320089B1000751CD5 /* Build configuration list for PBXNativeTarget "YYControlUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				182E023420089B1000751CD5 /* Debug */,
+				182E023520089B1000751CD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 182E01F920089B1000751CD5 /* Project object */;
+}
