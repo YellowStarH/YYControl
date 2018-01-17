@@ -126,9 +126,7 @@
             [self.attDic setValue:@(self.wordspace) forKey:NSKernAttributeName];
         }
         self.paragraphStyle1 = [[NSMutableParagraphStyle alloc] init];
-        if (self.linespace) {
-            self.paragraphStyle1.lineSpacing = self.linespace;
-        }
+        self.paragraphStyle1.lineSpacing = linespace;
         self.attributedString = [[NSMutableAttributedString alloc] initWithString:self.textString attributes:self.attDic];
         [self.attributedString addAttribute:NSParagraphStyleAttributeName value:self.paragraphStyle1 range: NSMakeRange(0, self.textString.length)];
         self.linespace = linespace;
