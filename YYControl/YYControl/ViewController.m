@@ -36,9 +36,12 @@
     [self.view addSubview:btn];
     
     //第二种创建方式  - 此方式不会联想（）中的内容
-    YYLabel *label = YYLabelShare.Frame(CGRectMake(100, 150, 100, 30))
-    .Text(@"测试label")
+    YYLabel *label = YYLabelShare.Frame(CGRectMake(100, 150, 200, 100))
+    .NumberOfLines(0)
+    .Text(@"测试label测试label测试label测试label测试label测试label测试label测试label测试label测试label测试label测试label")
     .backColor([UIColor redColor])
+    .WordSpace(6)
+    .LineSpace(10)
     .Alpha(0.6)
     .TextColor([UIColor whiteColor])
     .TextAlignment(NSTextAlignmentCenter)
@@ -48,7 +51,7 @@
     //第三种创建方式
     
     YYSlider *slider = [[YYSlider alloc]init];
-    slider.Frame(CGRectMake(100, 200, 200, 20))
+    slider.Frame(CGRectMake(100, 250, 200, 20))
     .MaximumValue(1)
     .MaximumValue(10)
     .MinimumTrackTintColor([UIColor grayColor])
@@ -59,7 +62,7 @@
     //slider带滑动事件的创建
     
     YYSlider *yySlider = [YYSliderShare createYYSlider:^(YYSlider * _Nullable yySlider) {
-        yySlider.Frame(CGRectMake(100, 250, 200, 20))
+        yySlider.Frame(CGRectMake(100, 300, 200, 20))
         .MaximumValue(1)
         .MaximumValue(10)
         .MinimumTrackTintColor([UIColor grayColor])
@@ -71,7 +74,7 @@
     
     //scrollview创建
     YYScrollView *scrollview = [YYScrollViewShare createYYScrollView:^(YYScrollView * _Nullable yyScrollView) {
-        yyScrollView.Frame(CGRectMake(100, 300, 200, 200))
+        yyScrollView.Frame(CGRectMake(100, 350, 200, 200))
         .ContentSize(CGSizeMake(600, 200))
         .BackgroundColor([UIColor purpleColor])
         .PagingEnabled(YES);

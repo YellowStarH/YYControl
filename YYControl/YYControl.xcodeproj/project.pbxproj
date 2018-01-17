@@ -172,8 +172,8 @@
 		182E023A20089B4D00751CD5 /* Label */ = {
 			isa = PBXGroup;
 			children = (
-				182E023B20089B4D00751CD5 /* YYLabel.m */,
 				182E023C20089B4D00751CD5 /* YYLabel.h */,
+				182E023B20089B4D00751CD5 /* YYLabel.m */,
 			);
 			path = Label;
 			sourceTree = "<group>";

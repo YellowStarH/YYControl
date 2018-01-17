@@ -8,6 +8,17 @@
 
 #import "YYLabel.h"
 
+@interface YYLabel ()
+
+@property (nonatomic,strong) NSString *textString;
+@property (nonatomic,strong) NSMutableAttributedString *attributedString;
+@property (nonatomic,strong) NSMutableParagraphStyle * paragraphStyle1;
+@property (nonatomic,strong) NSMutableDictionary *attDic;
+@property (nonatomic,assign) NSInteger wordspace;
+@property (nonatomic,assign) NSInteger linespace;
+
+@end
+
 @implementation YYLabel
 
 
@@ -22,6 +33,7 @@
 -(YYLabel * _Nullable (^)(NSString * _Nonnull))Text{
     return ^YYLabel *(NSString *text){
         self.text = text;
+        self.textString = text;
         return self;
     };
 }
@@ -96,6 +108,49 @@
 -(YYLabel * _Nullable (^)(NSInteger))Tag{
     return ^ YYLabel *(NSInteger tag) {
         self.tag = tag;
+        return self;
+    };
+}
+-(YYLabel * _Nullable (^)(NSInteger))NumberOfLines{
+    return ^ YYLabel *(NSInteger numberOfLines) {
+        self.numberOfLines = numberOfLines;
+        return self;
+    };
+}
+
+- (YYLabel * _Nullable (^)(NSInteger))LineSpace{
+    return ^ YYLabel *(NSInteger linespace) {
+        NSAssert(self.textString, @"先设置文本的text,再设置行间距");
+        self.attDic = [NSMutableDictionary dictionary];
+        if (self.wordspace) {
+            [self.attDic setValue:@(self.wordspace) forKey:NSKernAttributeName];
+        }
+        self.paragraphStyle1 = [[NSMutableParagraphStyle alloc] init];
+        if (self.linespace) {
+            self.paragraphStyle1.lineSpacing = self.linespace;
+        }
+        self.attributedString = [[NSMutableAttributedString alloc] initWithString:self.textString attributes:self.attDic];
+        [self.attributedString addAttribute:NSParagraphStyleAttributeName value:self.paragraphStyle1 range: NSMakeRange(0, self.textString.length)];
+        self.linespace = linespace;
+        [self setAttributedText:self.attributedString];
+        return self;
+    };
+}
+
+
+-(YYLabel * _Nullable (^)(NSInteger))WordSpace{
+    return ^ YYLabel *(NSInteger wordSpace) {
+        NSAssert(self.textString, @"先设置文本的text,再设置字间距");
+        self.attDic = [NSMutableDictionary dictionary];
+        [self.attDic setValue:@(wordSpace) forKey:NSKernAttributeName];
+        self.paragraphStyle1 = [[NSMutableParagraphStyle alloc] init];
+        if (self.linespace) {
+            self.paragraphStyle1.lineSpacing = self.linespace;
+        }
+        self.attributedString = [[NSMutableAttributedString alloc] initWithString:self.textString attributes:self.attDic];
+        [self.attributedString addAttribute:NSParagraphStyleAttributeName value:self.paragraphStyle1 range: NSMakeRange(0, self.textString.length)];
+        self.wordspace = wordSpace;
+        [self setAttributedText:self.attributedString];
         return self;
     };
 }
