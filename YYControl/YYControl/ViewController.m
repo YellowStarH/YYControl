@@ -13,6 +13,8 @@
 #import "YYSlider.h"
 #import "YYImageView.h"
 
+#import "YYTextField.h"
+
 
 @interface ViewController ()
 
@@ -74,7 +76,7 @@
     
     //scrollview创建
     YYScrollView *scrollview = [YYScrollViewShare createYYScrollView:^(YYScrollView * _Nullable yyScrollView) {
-        yyScrollView.Frame(CGRectMake(100, 350, 200, 200))
+        yyScrollView.Frame(CGRectMake(100, 350, 200, 100))
         .ContentSize(CGSizeMake(600, 200))
         .BackgroundColor([UIColor purpleColor])
         .PagingEnabled(YES);
@@ -88,6 +90,20 @@
     .FontofSize([UIFont systemFontOfSize:15]);
     [scrollview addSubview:scrlabel];
     [self.view addSubview:scrollview];
+    
+    
+    YYTextField *textfiled = [YYTextFieldShare createYYTextField:^(YYTextField * _Nullable yyTextFiled) {
+        yyTextFiled.Frame(CGRectMake(100, 500, 100, 30))
+        .BackgroundColor([UIColor orangeColor])
+        .Placeholder(@"测试输入框")
+        .placeholderColor([UIColor whiteColor])
+        .PlaceholderFont([UIFont systemFontOfSize:10])
+        .leftSpace(10)
+        .LeftViewMode(UITextFieldViewModeAlways)
+        .BorderWidth(1)
+        .BorderColor([UIColor purpleColor]);
+    }];
+    [self.view addSubview:textfiled];
     
 }
 

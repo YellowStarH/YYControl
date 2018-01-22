@@ -42,7 +42,13 @@
 @property (nonatomic, copy, readonly) YYButton *_Nullable(^ _Nonnull Tag)(NSInteger tag);
 
 
-///创建按钮
+///创建按钮  带点击事件的创建
 -(YYButton *_Nullable)createYYButton:(void(^_Nullable)(YYButton * _Nullable yybutton))button YYButtonClick:(void (^_Nullable)(UIButton * _Nullable sender)) yybuttonClick;
+
+///创建按钮  不带点击事件的创建
+-(YYButton *_Nullable)createYYButton:(void(^_Nullable)(YYButton * _Nullable yyLabel))button;
+
+
+
 
 @end

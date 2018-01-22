@@ -134,6 +134,12 @@
 }
 
 
+-(YYButton *)createYYButton:(void (^)(YYButton * _Nullable))button{
+    button(self);
+    return  self;
+}
+
+
 -(YYButton *)createYYButton:(void(^)(YYButton * yybutton))button YYButtonClick:(void (^)(UIButton *sender)) yybuttonClick{
     button(self);
     YYButtonClick = yybuttonClick;

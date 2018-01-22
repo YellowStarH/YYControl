@@ -34,7 +34,7 @@
 
 ///label的masksToBounds
 @property (nonatomic, copy, readonly) YYLabel *_Nullable(^ _Nonnull MasksToBounds)(BOOL masksToBounds);
-///label的masksToBounds
+///label的文字对齐方式
 @property (nonatomic, copy, readonly) YYLabel *_Nullable(^ _Nonnull TextAlignment)(NSTextAlignment textAlignment);
 ///label的tag
 @property (nonatomic, copy, readonly) YYLabel *_Nullable(^ _Nonnull Tag)(NSInteger tag);

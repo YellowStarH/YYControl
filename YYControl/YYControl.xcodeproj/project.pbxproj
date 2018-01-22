@@ -20,6 +20,7 @@
 		182E024820089B4D00751CD5 /* YYImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 182E023F20089B4D00751CD5 /* YYImageView.m */; };
 		182E024920089B4D00751CD5 /* YYButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 182E024220089B4D00751CD5 /* YYButton.m */; };
 		182E024A20089B4D00751CD5 /* YYScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 182E024520089B4D00751CD5 /* YYScrollView.m */; };
+		184D88EE201586EF00D59BE7 /* YYTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 184D88ED201586EF00D59BE7 /* YYTextField.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +67,8 @@
 		182E024220089B4D00751CD5 /* YYButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYButton.m; sourceTree = "<group>"; };
 		182E024420089B4D00751CD5 /* YYScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYScrollView.h; sourceTree = "<group>"; };
 		182E024520089B4D00751CD5 /* YYScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYScrollView.m; sourceTree = "<group>"; };
+		184D88EC201586EF00D59BE7 /* YYTextField.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YYTextField.h; sourceTree = "<group>"; };
+		184D88ED201586EF00D59BE7 /* YYTextField.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YYTextField.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -151,6 +154,7 @@
 		182E023620089B4D00751CD5 /* Control */ = {
 			isa = PBXGroup;
 			children = (
+				184D88EB201586D200D59BE7 /* YYUITextField */,
 				182E023720089B4D00751CD5 /* YYSlider */,
 				182E023A20089B4D00751CD5 /* Label */,
 				182E023D20089B4D00751CD5 /* Image */,
@@ -203,6 +207,15 @@
 				182E024520089B4D00751CD5 /* YYScrollView.m */,
 			);
 			path = YYScollView;
+			sourceTree = "<group>";
+		};
+		184D88EB201586D200D59BE7 /* YYUITextField */ = {
+			isa = PBXGroup;
+			children = (
+				184D88EC201586EF00D59BE7 /* YYTextField.h */,
+				184D88ED201586EF00D59BE7 /* YYTextField.m */,
+			);
+			path = YYUITextField;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -345,6 +358,7 @@
 				182E024620089B4D00751CD5 /* YYSlider.m in Sources */,
 				182E024A20089B4D00751CD5 /* YYScrollView.m in Sources */,
 				182E024720089B4D00751CD5 /* YYLabel.m in Sources */,
+				184D88EE201586EF00D59BE7 /* YYTextField.m in Sources */,
 				182E020620089B1000751CD5 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
