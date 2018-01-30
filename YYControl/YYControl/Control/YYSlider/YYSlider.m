@@ -80,6 +80,11 @@
 }
 
 
+-(YYSlider *)createYYSlider:(void (^)(YYSlider * _Nullable))slider{
+    slider(self);
+    return self;
+}
+
 -(YYSlider *)createYYSlider:(void (^)(YYSlider * _Nullable))slider YYSliderClick:(void (^)(UISlider *slider))yySliderClick{
     slider(self);
     YYSliderClick = yySliderClick;

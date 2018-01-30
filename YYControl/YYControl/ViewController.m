@@ -12,6 +12,7 @@
 #import "YYButton.h"
 #import "YYSlider.h"
 #import "YYImageView.h"
+#import "YYUITextView.h"
 
 #import "YYTextField.h"
 
@@ -28,7 +29,7 @@
     //第一种创建方式
     YYButton *btn = [YYButtonShare createYYButton:^(YYButton * _Nullable yybutton) {
         yybutton.Frame(CGRectMake(100, 100, 100, 30))
-        .Title(@"测试按钮")
+        .Text(@"测试按钮")
         .BackgroundColor([UIColor purpleColor])
         .TextColor([UIColor whiteColor]);
     } YYButtonClick:^(UIButton * _Nullable sender) {
@@ -104,6 +105,16 @@
         .BorderColor([UIColor purpleColor]);
     }];
     [self.view addSubview:textfiled];
+    
+    YYUITextView *textview = [YYTextViewShare createYYUITextView:^(YYUITextView * _Nullable TextView) {
+        TextView.Frame(CGRectMake(100, 20, 100, 60)).MasksToBounds(YES)
+        .BorderColor([UIColor blueColor])
+        .BorderWidth(2)
+        .Placeholder(@"aaaaaa")
+//        .PlaceholderFont([UIFont systemFontOfSize:12])
+        .Font([UIFont systemFontOfSize:18]);
+    }];
+    [self.view addSubview:textview];
     
 }
 

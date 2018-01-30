@@ -35,7 +35,23 @@
 @property (nonatomic, copy, readonly) YYSlider *_Nullable(^ _Nonnull Tag)(NSInteger tag);
 
 
-///创建滑块
+/**
+ 不带滑动事件的创建
+
+ @param slider <#slider description#>
+ @return <#return value description#>
+ */
+-(YYSlider *_Nullable)createYYSlider:(void(^_Nullable)(YYSlider * _Nullable slider))slider;
+
+
+
+/**
+ 带滑动事件的创建
+
+ @param slider <#slider description#>
+ @param yySliderClick 滑动事件的回调
+ @return <#return value description#>
+ */
 -(YYSlider *_Nullable)createYYSlider:(void(^_Nullable)(YYSlider * _Nullable yySlider))slider YYSliderClick:(void (^_Nullable)(UISlider * _Nullable slider)) yySliderClick;
 
 @end

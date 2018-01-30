@@ -41,9 +41,9 @@
 }
 
 
--(YYButton * _Nullable (^)(NSString * _Nonnull))Title{
-    return ^YYButton *(NSString *title){
-        _title = title;
+-(YYButton * _Nullable (^)(NSString * _Nonnull))Text{
+    return ^YYButton *(NSString *text){
+        _title = text;
         [self setTitle:_title forState:UIControlStateNormal];
         return self;
     };

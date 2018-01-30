@@ -19,7 +19,7 @@
 ///按钮的背景颜色
 @property (nonatomic, copy, readonly) YYButton *_Nullable(^ _Nonnull BackgroundColor)(UIColor * _Nonnull backgroundColor);
 ///按钮的文字
-@property (nonatomic, copy, readonly) YYButton *_Nullable(^ _Nonnull Title)(NSString * _Nonnull title);
+@property (nonatomic, copy, readonly) YYButton *_Nullable(^ _Nonnull Text)(NSString * _Nonnull text);
 ///按钮的文字颜色
 @property (nonatomic, copy, readonly) YYButton *_Nullable(^ _Nonnull TextColor)(UIColor * _Nonnull textColor);
 ///按钮的字体和大小
@@ -43,10 +43,10 @@
 
 
 ///创建按钮  带点击事件的创建
--(YYButton *_Nullable)createYYButton:(void(^_Nullable)(YYButton * _Nullable yybutton))button YYButtonClick:(void (^_Nullable)(UIButton * _Nullable sender)) yybuttonClick;
+-(YYButton *_Nullable)createYYButton:(void(^_Nullable)(YYButton * _Nullable button))button YYButtonClick:(void (^_Nullable)(UIButton * _Nullable sender)) yybuttonClick;
 
 ///创建按钮  不带点击事件的创建
--(YYButton *_Nullable)createYYButton:(void(^_Nullable)(YYButton * _Nullable yyLabel))button;
+-(YYButton *_Nullable)createYYButton:(void(^_Nullable)(YYButton * _Nullable button))button;
 
 
 
