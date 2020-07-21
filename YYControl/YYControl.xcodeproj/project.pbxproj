@@ -15,13 +15,13 @@
 		182E021420089B1000751CD5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 182E021320089B1000751CD5 /* main.m */; };
 		182E021E20089B1000751CD5 /* YYControlTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 182E021D20089B1000751CD5 /* YYControlTests.m */; };
 		182E022920089B1000751CD5 /* YYControlUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 182E022820089B1000751CD5 /* YYControlUITests.m */; };
-		182E024620089B4D00751CD5 /* YYSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 182E023920089B4D00751CD5 /* YYSlider.m */; };
-		182E024720089B4D00751CD5 /* YYLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 182E023B20089B4D00751CD5 /* YYLabel.m */; };
-		182E024820089B4D00751CD5 /* YYImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 182E023F20089B4D00751CD5 /* YYImageView.m */; };
-		182E024920089B4D00751CD5 /* YYButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 182E024220089B4D00751CD5 /* YYButton.m */; };
 		182E024A20089B4D00751CD5 /* YYScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 182E024520089B4D00751CD5 /* YYScrollView.m */; };
-		184330E020201D110052C8A1 /* YYUITextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 184330DF20201D110052C8A1 /* YYUITextView.m */; };
-		184D88EE201586EF00D59BE7 /* YYTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 184D88ED201586EF00D59BE7 /* YYTextField.m */; };
+		18E0087224C6FCF500668EFE /* HYYImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E0086224C6FCF400668EFE /* HYYImageView.m */; };
+		18E0087324C6FCF500668EFE /* HYYSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E0086524C6FCF400668EFE /* HYYSlider.m */; };
+		18E0087424C6FCF500668EFE /* HYYTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E0086724C6FCF400668EFE /* HYYTextField.m */; };
+		18E0087524C6FCF500668EFE /* HYYButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E0086B24C6FCF400668EFE /* HYYButton.m */; };
+		18E0087624C6FCF500668EFE /* HYYUITextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E0086D24C6FCF400668EFE /* HYYUITextView.m */; };
+		18E0087724C6FCF500668EFE /* HYYLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E0087024C6FCF400668EFE /* HYYLabel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,20 +58,20 @@
 		182E022420089B1000751CD5 /* YYControlUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YYControlUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		182E022820089B1000751CD5 /* YYControlUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YYControlUITests.m; sourceTree = "<group>"; };
 		182E022A20089B1000751CD5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		182E023820089B4D00751CD5 /* YYSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYSlider.h; sourceTree = "<group>"; };
-		182E023920089B4D00751CD5 /* YYSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYSlider.m; sourceTree = "<group>"; };
-		182E023B20089B4D00751CD5 /* YYLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYLabel.m; sourceTree = "<group>"; };
-		182E023C20089B4D00751CD5 /* YYLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYLabel.h; sourceTree = "<group>"; };
-		182E023E20089B4D00751CD5 /* YYImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYImageView.h; sourceTree = "<group>"; };
-		182E023F20089B4D00751CD5 /* YYImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYImageView.m; sourceTree = "<group>"; };
-		182E024120089B4D00751CD5 /* YYButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYButton.h; sourceTree = "<group>"; };
-		182E024220089B4D00751CD5 /* YYButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYButton.m; sourceTree = "<group>"; };
 		182E024420089B4D00751CD5 /* YYScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYScrollView.h; sourceTree = "<group>"; };
 		182E024520089B4D00751CD5 /* YYScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYScrollView.m; sourceTree = "<group>"; };
-		184330DE20201D110052C8A1 /* YYUITextView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YYUITextView.h; sourceTree = "<group>"; };
-		184330DF20201D110052C8A1 /* YYUITextView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YYUITextView.m; sourceTree = "<group>"; };
-		184D88EC201586EF00D59BE7 /* YYTextField.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YYTextField.h; sourceTree = "<group>"; };
-		184D88ED201586EF00D59BE7 /* YYTextField.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YYTextField.m; sourceTree = "<group>"; };
+		18E0086124C6FCF400668EFE /* HYYImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYYImageView.h; sourceTree = "<group>"; };
+		18E0086224C6FCF400668EFE /* HYYImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYYImageView.m; sourceTree = "<group>"; };
+		18E0086424C6FCF400668EFE /* HYYSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYYSlider.h; sourceTree = "<group>"; };
+		18E0086524C6FCF400668EFE /* HYYSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYYSlider.m; sourceTree = "<group>"; };
+		18E0086724C6FCF400668EFE /* HYYTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYYTextField.m; sourceTree = "<group>"; };
+		18E0086824C6FCF400668EFE /* HYYTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYYTextField.h; sourceTree = "<group>"; };
+		18E0086A24C6FCF400668EFE /* HYYButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYYButton.h; sourceTree = "<group>"; };
+		18E0086B24C6FCF400668EFE /* HYYButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYYButton.m; sourceTree = "<group>"; };
+		18E0086D24C6FCF400668EFE /* HYYUITextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYYUITextView.m; sourceTree = "<group>"; };
+		18E0086E24C6FCF400668EFE /* HYYUITextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYYUITextView.h; sourceTree = "<group>"; };
+		18E0087024C6FCF400668EFE /* HYYLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYYLabel.m; sourceTree = "<group>"; };
+		18E0087124C6FCF400668EFE /* HYYLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYYLabel.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -157,51 +157,15 @@
 		182E023620089B4D00751CD5 /* Control */ = {
 			isa = PBXGroup;
 			children = (
-				184330DD202017120052C8A1 /* YYUITextView */,
-				184D88EB201586D200D59BE7 /* YYUITextField */,
-				182E023720089B4D00751CD5 /* YYSlider */,
-				182E023A20089B4D00751CD5 /* Label */,
-				182E023D20089B4D00751CD5 /* Image */,
-				182E024020089B4D00751CD5 /* Button */,
+				18E0086924C6FCF400668EFE /* Button */,
+				18E0086024C6FCF400668EFE /* Image */,
+				18E0086F24C6FCF400668EFE /* Label */,
+				18E0086324C6FCF400668EFE /* YYSlider */,
+				18E0086624C6FCF400668EFE /* YYUITextField */,
+				18E0086C24C6FCF400668EFE /* YYUITextView */,
 				182E024320089B4D00751CD5 /* YYScollView */,
 			);
 			path = Control;
-			sourceTree = "<group>";
-		};
-		182E023720089B4D00751CD5 /* YYSlider */ = {
-			isa = PBXGroup;
-			children = (
-				182E023820089B4D00751CD5 /* YYSlider.h */,
-				182E023920089B4D00751CD5 /* YYSlider.m */,
-			);
-			path = YYSlider;
-			sourceTree = "<group>";
-		};
-		182E023A20089B4D00751CD5 /* Label */ = {
-			isa = PBXGroup;
-			children = (
-				182E023C20089B4D00751CD5 /* YYLabel.h */,
-				182E023B20089B4D00751CD5 /* YYLabel.m */,
-			);
-			path = Label;
-			sourceTree = "<group>";
-		};
-		182E023D20089B4D00751CD5 /* Image */ = {
-			isa = PBXGroup;
-			children = (
-				182E023E20089B4D00751CD5 /* YYImageView.h */,
-				182E023F20089B4D00751CD5 /* YYImageView.m */,
-			);
-			path = Image;
-			sourceTree = "<group>";
-		};
-		182E024020089B4D00751CD5 /* Button */ = {
-			isa = PBXGroup;
-			children = (
-				182E024120089B4D00751CD5 /* YYButton.h */,
-				182E024220089B4D00751CD5 /* YYButton.m */,
-			);
-			path = Button;
 			sourceTree = "<group>";
 		};
 		182E024320089B4D00751CD5 /* YYScollView */ = {
@@ -213,22 +177,58 @@
 			path = YYScollView;
 			sourceTree = "<group>";
 		};
-		184330DD202017120052C8A1 /* YYUITextView */ = {
+		18E0086024C6FCF400668EFE /* Image */ = {
 			isa = PBXGroup;
 			children = (
-				184330DE20201D110052C8A1 /* YYUITextView.h */,
-				184330DF20201D110052C8A1 /* YYUITextView.m */,
+				18E0086124C6FCF400668EFE /* HYYImageView.h */,
+				18E0086224C6FCF400668EFE /* HYYImageView.m */,
+			);
+			path = Image;
+			sourceTree = "<group>";
+		};
+		18E0086324C6FCF400668EFE /* YYSlider */ = {
+			isa = PBXGroup;
+			children = (
+				18E0086424C6FCF400668EFE /* HYYSlider.h */,
+				18E0086524C6FCF400668EFE /* HYYSlider.m */,
+			);
+			path = YYSlider;
+			sourceTree = "<group>";
+		};
+		18E0086624C6FCF400668EFE /* YYUITextField */ = {
+			isa = PBXGroup;
+			children = (
+				18E0086724C6FCF400668EFE /* HYYTextField.m */,
+				18E0086824C6FCF400668EFE /* HYYTextField.h */,
+			);
+			path = YYUITextField;
+			sourceTree = "<group>";
+		};
+		18E0086924C6FCF400668EFE /* Button */ = {
+			isa = PBXGroup;
+			children = (
+				18E0086A24C6FCF400668EFE /* HYYButton.h */,
+				18E0086B24C6FCF400668EFE /* HYYButton.m */,
+			);
+			path = Button;
+			sourceTree = "<group>";
+		};
+		18E0086C24C6FCF400668EFE /* YYUITextView */ = {
+			isa = PBXGroup;
+			children = (
+				18E0086D24C6FCF400668EFE /* HYYUITextView.m */,
+				18E0086E24C6FCF400668EFE /* HYYUITextView.h */,
 			);
 			path = YYUITextView;
 			sourceTree = "<group>";
 		};
-		184D88EB201586D200D59BE7 /* YYUITextField */ = {
+		18E0086F24C6FCF400668EFE /* Label */ = {
 			isa = PBXGroup;
 			children = (
-				184D88EC201586EF00D59BE7 /* YYTextField.h */,
-				184D88ED201586EF00D59BE7 /* YYTextField.m */,
+				18E0087024C6FCF400668EFE /* HYYLabel.m */,
+				18E0087124C6FCF400668EFE /* HYYLabel.h */,
 			);
-			path = YYUITextField;
+			path = Label;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -364,15 +364,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				182E024920089B4D00751CD5 /* YYButton.m in Sources */,
-				182E024820089B4D00751CD5 /* YYImageView.m in Sources */,
+				18E0087624C6FCF500668EFE /* HYYUITextView.m in Sources */,
+				18E0087224C6FCF500668EFE /* HYYImageView.m in Sources */,
+				18E0087324C6FCF500668EFE /* HYYSlider.m in Sources */,
+				18E0087724C6FCF500668EFE /* HYYLabel.m in Sources */,
 				182E020920089B1000751CD5 /* ViewController.m in Sources */,
 				182E021420089B1000751CD5 /* main.m in Sources */,
-				182E024620089B4D00751CD5 /* YYSlider.m in Sources */,
-				184330E020201D110052C8A1 /* YYUITextView.m in Sources */,
+				18E0087524C6FCF500668EFE /* HYYButton.m in Sources */,
 				182E024A20089B4D00751CD5 /* YYScrollView.m in Sources */,
-				182E024720089B4D00751CD5 /* YYLabel.m in Sources */,
-				184D88EE201586EF00D59BE7 /* YYTextField.m in Sources */,
+				18E0087424C6FCF500668EFE /* HYYTextField.m in Sources */,
 				182E020620089B1000751CD5 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
